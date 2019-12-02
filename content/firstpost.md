@@ -5,6 +5,7 @@ Category: General
 Tags: pelican, publishing
 Slug: first-pelican-post
 Authors: Eric Lake
+Status: published
 ---
 
 This is my inital post to test the integration between pelican and github pages. My intention is to use this for all future blogging assuming that I can get all the pieces to work together smoothly.

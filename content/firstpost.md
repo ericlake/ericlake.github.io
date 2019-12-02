@@ -1,6 +1,6 @@
 ---
 Title: First Pelican Post
-Date: 2019-11-27 19:30
+Date: 2019-12-02
 Category: General
 Tags: pelican, publishing
 Slug: first-pelican-post

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://etank.us/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://etank.us/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="https://etank.us/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://etank.us/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://etank.us/theme/font-awesome/css/solid.css">
+
+
+    <link href="https://etank.us/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Ramblings Atom">
+
+
+    <link rel="shortcut icon" href="https://etank.us/static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://etank.us/static/favicon.ico" type="image/x-icon">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150583051-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150583051-1');
+</script>
+<!-- End GA -->
+
+<meta name="author" content="Eric Lake" />
+<meta name="description" content="This is my inital post to test the integration between pelican and github pages. My intention is to use this for all future blogging assuming that I can get all the pieces to work together smoothly. Part of making this work will involve getting auto publishing on push to work …" />
+<meta name="keywords" content="pelican, publishing">
+
+<meta property="og:site_name" content="Ramblings"/>
+<meta property="og:title" content="First Pelican Post"/>
+<meta property="og:description" content="This is my inital post to test the integration between pelican and github pages. My intention is to use this for all future blogging assuming that I can get all the pieces to work together smoothly. Part of making this work will involve getting auto publishing on push to work …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://etank.us/2019/12/02/first-pelican-post/"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-12-02 00:00:00-06:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://etank.us/author/eric-lake.html">
+<meta property="article:section" content="General"/>
+<meta property="article:tag" content="pelican"/>
+<meta property="article:tag" content="publishing"/>
+<meta property="og:image" content="https://etank.us/static/avatar.png">
+
+  <title>Ramblings &ndash; First Pelican Post</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://etank.us">
+        <img src="https://etank.us/static/avatar.png" alt="Ramblings" title="Ramblings">
+      </a>
+      <h1><a href="https://etank.us">Ramblings</a></h1>
+
+<small>Ramblings of someone who should be more closely supervised!</small>
+    <hr/>
+<p>Site Reliability Engineer @LogDNA</p>    <hr/>
+      <nav>
+        <ul class="list">
+
+          <li><a href="/archives.html">Archives</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-linkedin" href="https://www.linkedin.com/in/ericlake/" target="_blank">
+            <i class="fab fa-linkedin">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-twitter" href="https://twitter.com/etank" target="_blank">
+            <i class="fab fa-twitter">
+            </i>
+          </a></li>
+          <li>
+            <a  class="sc-github" href="https://github.com/ericlake" target="_blank">
+            <i class="fab fa-github">
+            </i>
+          </a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://etank.us">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://etank.us/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="first-pelican-post">First Pelican Post</h1>
+    <p>
+          Posted on Mon 02 December 2019 in <a href="https://etank.us/category/general.html">General</a>
+
+
+        &#8226; 1 min read
+    </p>
+  </header>
+
+
+  <div>
+    <p>This is my inital post to test the integration between pelican and github pages. My intention is to use this for all future blogging assuming that I can get all the pieces to work together smoothly.</p>
+<p>Part of making this work will involve getting auto publishing on push to work as well as having a nice theme. Another thing that I want to have working is the automation of the metadata at the top of each of the markdown source files. Having to fill in the following data each time is kind of a pain:</p>
+<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">This</span> <span class="n">one</span> <span class="n">makes</span> <span class="n">sense</span> <span class="n">to</span> <span class="n">fill</span> <span class="k">in</span>
+<span class="n">Date</span><span class="o">:</span> <span class="n">Just</span> <span class="n">use</span> <span class="n">the</span> <span class="n">current</span> <span class="n">time</span>
+<span class="n">Category</span><span class="o">:</span> <span class="n">General</span> <span class="n">or</span> <span class="n">something</span>
+<span class="n">Tags</span><span class="o">:</span> <span class="n">maybe</span><span class="o">,</span> <span class="n">it</span><span class="o">,</span> <span class="n">makes</span><span class="o">,</span> <span class="n">sense</span><span class="o">,</span> <span class="k">for</span><span class="o">,</span> <span class="n">these</span>
+<span class="n">Slug</span><span class="o">:</span> <span class="n">some</span><span class="o">-</span><span class="n">slug</span>
+<span class="n">Authors</span><span class="o">:</span> <span class="n">duh</span> <span class="n">it</span><span class="err">&#39;</span><span class="n">s</span> <span class="n">me</span>
+<span class="n">Summary</span><span class="o">:</span> <span class="n">Some</span> <span class="n">short</span> <span class="n">thing</span> <span class="n">about</span> <span class="n">the</span> <span class="n">post</span>
+</pre></div>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://etank.us/tag/pelican.html">pelican</a>
+      <a href="https://etank.us/tag/publishing.html">publishing</a>
+    </p>
+  </div>
+
+
+  <div class="neighbors">
+    <a class="btn float-right" href="https://etank.us/2019/12/02/blogging-again/" title="Lets kick these tires again">
+          Next Post
+ <i class="fa fa-angle-right"></i>
+    </a>
+  </div>
+
+
+
+</article>
+
+    <footer>
+<p>&copy; Eric Lake 2019</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Ramblings ",
+  "url" : "https://etank.us",
+  "image": "https://etank.us/static/avatar.png",
+  "description": "Ramblings of someone who should be more closely supervised!"
+}
+</script>
+
+</body>
+</html>
